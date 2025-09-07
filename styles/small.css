@@ -1,0 +1,179 @@
+/* Media queries from 320PX, up */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    grid-template-rows: auto auto;
+    padding: 5px 10px 5px 10px;
+    border-bottom: 1px solid #ddd;
+    column-gap: 8px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header span {
+    font-size: 2rem;
+    color: blue;
+}
+
+main {
+    padding: 10px;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+section {
+    padding: 10px;
+}
+
+section p {
+    padding: 10px 20px;
+}
+
+.photo {
+    text-align: center;
+}
+
+.photo img {
+    width: 80%;
+    margin: 0;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 1px;
+    max-width: 25rem;
+}
+
+.courses {
+    text-align: center;
+}
+
+button.course-id {
+    width:30%;
+    text-align: center;
+    padding: 10px 0;
+    margin:20px auto;
+}
+
+footer .social {
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    width: 10%;
+    padding: 0 10px;
+}
+
+footer .signed {
+    background: lightgray;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+section h2 {
+    padding: 20px 20px 15px 20px;
+    text-align: center;
+    background-color: cornflowerblue;
+    border-bottom: 10px solid navy;
+}
+
+.hamburger {
+    background-color: #Fcc4b6;
+}
+
+.hamburger::before {
+    content: "\2630";
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+.active {}
+
+.navigation {
+    background-color: lightgray;
+    grid-column: 1 / -1;
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+nav {
+    
+}
+
+nav li {
+    padding: 20px;
+    border:1px solid gray;
+}
+
+nav li:hover {
+    background-color: salmon;
+}
+
+nav li a {
+    text-decoration: none;
+    color:black;
+}
+
+.csactive {
+    background-color: salmon;
+}
+
+.course {
+    border: 1px solid black;
+    padding: 10px 0;
+    width:90%;
+    margin:0 auto;
+    margin-bottom:5px;
+}
+
+.checked::before {
+    content: "✅ ";
+}
+
+.unchecked::before {
+    content: "✅ ";
+    opacity:10%;
+}
+
+.social {}
+
+.signed {}
+
+#nav-button {}
+
+#nav-bar {}
+
+#site-name {}
+
+#courses {
+    text-align: center;
+}
+
+#course-credits {
+    margin-top:20px;
+}
+
+#copy {}
+
+#lastModified {}

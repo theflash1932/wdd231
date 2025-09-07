@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en-US">
+<!-- https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="WDD 231">
+    <meta name="author" content="Greg Nielson">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <script src="scripts/date-nav.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+    <title>Greg Nielson - WDD231</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/code-slash.svg" alt="logo" width="1" height="1">
+        <span id="site-name">Greg Nielson</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="csactive"><a href="#">Home</a></li>
+                <li><a href="#">Chamber Project</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Home</h1>
+        <section>
+            <h2>About Me</h2>
+            <p>
+                My name is Greg Nielson. I was born and raised in Utah. I have lived here all my
+                life except for two years spent in Italy for an LDS mission, and 7 years living in
+                Oakley, Idaho while my kids were younger. I have five kids - 23 (G), 21 (B), 18 (G),
+                15 (B), and 10 (G).
+            </p>
+            <p>
+                I am divorced and remarried. My wife also has five kids lol - 20 (G), 17 (G), 15 (G),
+                13 (B), and 10 (G). Lots of kids and lots of excitement! I am an IT consultant and
+                project manager. In my off-time, when / if I ever have any, I coach track and field,
+                participate myself, and lift weights.
+            </p>
+        </section>
+        <section class="photo">
+            <h2>Student Photo</h2>
+            <img src="images/greg.jpg" alt="student">
+        </section>
+        <section class="courses">
+            <h2>Web Certificate Courses</h2>
+            <button class="course-id csactive" id="showAll">All</button>
+            <button class="course-id" id="showCSE">CSE</button>
+            <button class="course-id" id="showWDD">WDD</button>
+            <br>
+            <div id="course-list"></div>
+            <div id="course-credits"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/theflash1932/wdd231" target="_blank"><img src="images/github.svg" alt="github"></a>
+            <a href="https://linkedin.com/in/gregnielson" target="_blank"><img src="images/linkedin.svg" alt="linkedin"></a>
+            <a href="https://facebook.com/gregory.nielson" target="_blank"><img src="images/facebook.svg" alt="facebook"></a>
+            <a href="https://instagram.com/nielsongreg" target="_blank"><img src="images/instagram.svg" alt="instagram"></a>
+        </div>
+        <div class="signed">
+            <span id="copy"></span> &middot; Greg Nielson &middot; Utah, USA<br>
+            <span id="lastModified"></span>
+        </div>
+    </footer>
+</body>
+
+</html>

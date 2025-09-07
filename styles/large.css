@@ -1,0 +1,77 @@
+/* Larger media queries from 40em, up */
+@media only screen and (min-width: 45em) {
+    main {
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-template-rows: auto auto auto;
+    }
+    main h1 {
+        grid-column: 1 / -1;
+        font-size: 2em;
+    }
+    main .courses {
+        grid-column: 1 / -1;
+    }
+   
+    header {
+        border:none;
+        padding:20px;
+    }
+
+    header ul {
+        list-style-type:none;
+        border-top:10px solid navy;
+    }
+
+    .social img {
+        max-width: 70px;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .hamburger::before {
+        content: "\2630";
+    }
+
+    .hamburger.show::before {
+        content: "\00D7";
+    }
+
+    .active {}
+
+    .navigation {
+        background-color: lightgray;
+        display: inline;
+    }
+
+    .navigation.show {
+        display: block;
+    }
+
+    nav {
+        
+    }
+
+    nav li {
+        padding: 10px 40px;
+        border:none;
+        float:left;
+    }
+
+    nav li:hover {
+        background-color: salmon;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color:black;
+    }
+
+    .csactive {
+        background-color: salmon;
+    }
+
+
+}
