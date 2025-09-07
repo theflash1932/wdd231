@@ -5,22 +5,23 @@
         grid-template-columns: 50% auto;
         grid-template-rows: auto auto auto;
     }
+
     main h1 {
         grid-column: 1 / -1;
         font-size: 2em;
     }
+
     main .courses {
         grid-column: 1 / -1;
     }
-   
+
     header {
-        border:none;
-        padding:20px;
+        border: none;
+        padding: 20px;
     }
 
     header ul {
-        list-style-type:none;
-        border-top:10px solid navy;
+        list-style-type: none;
     }
 
     .social img {
@@ -39,25 +40,20 @@
         content: "\00D7";
     }
 
-    .active {}
-
     .navigation {
         background-color: lightgray;
-        display: inline;
+        border-top: 10px solid navy;
+        display: flex;
     }
 
     .navigation.show {
-        display: block;
-    }
-
-    nav {
-        
+        display: flex;
     }
 
     nav li {
         padding: 10px 40px;
-        border:none;
-        float:left;
+        border: none;
+        float: left;
     }
 
     nav li:hover {
@@ -66,7 +62,7 @@
 
     nav li a {
         text-decoration: none;
-        color:black;
+        color: black;
     }
 
     .csactive {
