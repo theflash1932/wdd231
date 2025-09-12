@@ -1,0 +1,48 @@
+[
+    {
+        "FamilyName": "Hanson",
+        "DateMovedIn": "5-5-2022",
+        "FamilyNumber": 3,
+        "Visited": "No",
+        "Members": [
+            {
+                "Name": "Kirsten",
+                "Gender": "Female",
+                "Birthdate": "7-2-1989"
+            },
+            {
+                "Name": "Malachi",
+                "Gender": "Male",
+                "Birthdate": "2-12-1988"
+            },
+            {
+                "Name": "Baby",
+                "Gender": "Female",
+                "Birthdate": "12-1-2023"
+            }
+        ]
+    },
+    {
+        "FamilyName": "Delver",
+        "DateMovedIn": "3-25-2019",
+        "FamilyNumber": 3,
+        "Visited": "Yes",
+        "Members": [
+            {
+                "Name": "Carmon",
+                "Gender": "Male",
+                "Birthdate": "12-5-1987"
+            },
+            {
+                "Name": "Annie",
+                "Gender": "Female",
+                "Birthdate": "2-12-1990"
+            },
+            {
+                "Name": "Infant",
+                "Gender": "Female",
+                "Birthdate": "8-17-2024"
+            }
+        ]
+    }
+]

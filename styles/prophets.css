@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Ubuntu;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+h1 {
+    text-align:center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 0 0 10px gray;
+    font-weight: bold;
+    color: navy;
+}
+
+#cards {
+	display: grid;
+	grid-gap: 0.5rem;
+	grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    padding:20px;
+}
+
+section {
+	margin: 0.5rem;
+	padding: 0.5rem;
+	background-color: #eee;
+	border: 1px solid rgb(0 0 0 / 10%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section img {
+	width: auto;
+	max-width: 340px;
+	box-shadow: 0 0 30px #444;
+	border: 1px solid #111;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section caption {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 1.5em;
+    text-shadow: 0 0 10px gray;
+    font-weight: bold;
+    color: navy;
+}
+
+section p {
+    font-size: 1.1em;
+}
