@@ -75,7 +75,7 @@
         {
             "name": "Harmons Grocery",
             "city": "Salt Lake City, UT",
-            "address": "135 E 100 S, Salt Lake City, UT 84111",
+            "address": "135 E 100 S, SLC, UT 84111",
             "phone": "(801) 555-4465",
             "website": "https://www.harmonsgrocery.com/locations/",
             "logo_url": "https://www.harmonsgrocery.com/favicon.ico",
@@ -87,7 +87,7 @@
         {
             "name": "Red Iguana",
             "city": "Salt Lake City, UT",
-            "address": "736 W North Temple, Salt Lake City, UT 84116",
+            "address": "736 W North Temple, SLC, UT 84116",
             "phone": "(801) 322-1489",
             "website": "https://www.rediguana.com/",
             "logo_url": "https://www.rediguana.com/wp-content/uploads/RedIguanaLogo@2x-300x300.png",
