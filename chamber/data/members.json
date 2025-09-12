@@ -1,0 +1,124 @@
+{
+    "businesses": [
+        {
+            "name": "Crumbl Cookies (Bountiful)",
+            "city": "Bountiful, UT",
+            "address": "463 S Main St, Bountiful, UT 84010",
+            "phone": "(385) 399-9899",
+            "website": "https://crumblcookies.com/stores/bountiful",
+            "logo_url": "https://crumblcookies.com/favicon.ico",
+            "membership_level": 1,
+            "industry": "Dessert / Bakery",
+            "contact_email": "bountiful@crumbl.com",
+            "notes": "Franchise location — rotating weekly cookie flavors."
+        },
+        {
+            "name": "Lakeview Hospital",
+            "city": "Bountiful, UT",
+            "address": "630 E Medical Dr, Bountiful, UT 84010",
+            "phone": "(801) 299-2200",
+            "website": "https://www.lakeviewhospital.com",
+            "logo_url": "https://www.lakeviewhospital.com/favicon.ico",
+            "membership_level": 3,
+            "industry": "Healthcare",
+            "contact_email": null,
+            "notes": "Acute care hospital serving Davis County."
+        },
+        {
+            "name": "Einstein Bros. Bagels (Bountiful)",
+            "city": "Bountiful, UT",
+            "address": "498 S Main St, Bountiful, UT 84010",
+            "phone": "(801) 296-8333",
+            "website": "https://locations.einsteinbros.com/us/ut/bountiful/498-s-main-st",
+            "logo_url": "https://www.einsteinbros.com/favicon.ico",
+            "membership_level": 1,
+            "industry": "Cafe / Fast Casual",
+            "contact_email": null,
+            "notes": "Franchise location — catering available."
+        },
+        {
+            "name": "Louie’s Pizzeria (Layton)",
+            "city": "Layton, UT",
+            "address": "748 W Heritage Park Blvd Suite 101, Layton, UT 84041",
+            "phone": null,
+            "website": "https://www.ilovelouies.com",
+            "logo_url": "https://www.ilovelouies.com/favicon.ico",
+            "membership_level": 2,
+            "industry": "Restaurant / Pizza",
+            "contact_email": null,
+            "notes": "Locally owned Layton original — family pizza spot."
+        },
+        {
+            "name": "Burger Stop (Layton)",
+            "city": "Layton, UT",
+            "address": "check website for current local address",
+            "phone": null,
+            "website": "https://burgerstoputah.com",
+            "logo_url": "https://burgerstoputah.com/favicon.ico",
+            "membership_level": 1,
+            "industry": "Restaurant / Burger",
+            "contact_email": null,
+            "notes": "Classic diner-style menu; locally operated."
+        },
+        {
+            "name": "Roosters Brewing Co. (Layton)",
+            "city": "Layton, UT",
+            "address": "748 W Heritage Park Blvd, Suite 101, Layton, UT 84041",
+            "phone": "(801) 774-9330",
+            "website": "https://www.roostersbrewingco.com/location-layton/",
+            "logo_url": "https://www.roostersbrewingco.com/favicon.ico",
+            "membership_level": 2,
+            "industry": "Brewpub / Restaurant",
+            "contact_email": null,
+            "notes": "Brewpub with on-site beers and full menu; event hosting available."
+        },
+        {
+            "name": "Harmons Neighborhood Grocer (Salt Lake City)",
+            "city": "Salt Lake City, UT",
+            "address": "multiple Salt Lake City locations (see site)",
+            "phone": null,
+            "website": "https://www.harmonsgrocery.com/locations/",
+            "logo_url": "https://www.harmonsgrocery.com/favicon.ico",
+            "membership_level": 3,
+            "industry": "Grocery / Retail",
+            "contact_email": null,
+            "notes": "Utah-based grocery chain with several SLC locations."
+        },
+        {
+            "name": "Red Iguana (Salt Lake City)",
+            "city": "Salt Lake City, UT",
+            "address": "736 W North Temple St, Salt Lake City, UT 84116",
+            "phone": "(801) 322-1489",
+            "website": "https://www.rediguana.com/",
+            "logo_url": "https://www.rediguana.com/favicon.ico",
+            "membership_level": 2,
+            "industry": "Restaurant / Mexican",
+            "contact_email": null,
+            "notes": "Locally famous for mole dishes; multiple SLC locations."
+        },
+        {
+            "name": "Deseret Book (Salt Lake City)",
+            "city": "Salt Lake City, UT",
+            "address": "Headquarters & retail locations — see site store-locator",
+            "phone": null,
+            "website": "https://www.deseretbook.com/",
+            "logo_url": "https://www.deseretbook.com/favicon.ico",
+            "membership_level": 2,
+            "industry": "Retail / Publishing",
+            "contact_email": null,
+            "notes": "Retailer & publisher with physical stores in the Salt Lake area."
+        },
+        {
+            "name": "Zions Bank (Salt Lake City)",
+            "city": "Salt Lake City, UT",
+            "address": "Headquartered in Salt Lake City — see site for branch addresses",
+            "phone": null,
+            "website": "https://www.zionsbank.com/",
+            "logo_url": "https://www.zionsbank.com/favicon.ico",
+            "membership_level": 3,
+            "industry": "Banking / Financial Services",
+            "contact_email": null,
+            "notes": "Founded in Salt Lake City, regional bank with many branches."
+        }
+    ]
+}
