@@ -1,7 +1,7 @@
 {
     "businesses": [
         {
-            "name": "Crumbl Cookies (Bountiful)",
+            "name": "Crumbl Cookies",
             "city": "Bountiful, UT",
             "address": "463 S Main St, Bountiful, UT 84010",
             "phone": "(385) 399-9899",
@@ -25,7 +25,7 @@
             "notes": "Acute care hospital serving Davis County."
         },
         {
-            "name": "Einstein Bros. Bagels (Bountiful)",
+            "name": "Einstein Bros. Bagels",
             "city": "Bountiful, UT",
             "address": "498 S Main St, Bountiful, UT 84010",
             "phone": "(801) 296-8333",
@@ -37,9 +37,9 @@
             "notes": "Franchise location — catering available."
         },
         {
-            "name": "Louie’s Pizzeria (Layton)",
+            "name": "Louie’s Pizzeria",
             "city": "Layton, UT",
-            "address": "748 W Heritage Park Blvd Suite 101, Layton, UT 84041",
+            "address": "748 W Heritage Park Blvd, Layton, UT 84041",
             "phone": "(801) 555-4465",
             "website": "https://www.ilovelouies.com",
             "logo_url": "https://www.ilovelouies.com/favicon.ico",
@@ -49,9 +49,9 @@
             "notes": "Locally owned Layton original — family pizza spot."
         },
         {
-            "name": "Burger Stop (Layton)",
+            "name": "Burger Stop",
             "city": "Layton, UT",
-            "address": "check website for current local address",
+            "address": "323 E Gentile St, Layton, UT 84041",
             "phone": "(801) 555-4465",
             "website": "https://burgerstoputah.com",
             "logo_url": "https://static.spotapps.co/website_images/ab_websites/179086_website_v1/logo.png",
@@ -61,9 +61,9 @@
             "notes": "Classic diner-style menu; locally operated."
         },
         {
-            "name": "Roosters Brewing Co. (Layton)",
+            "name": "Roosters Brewing Co.",
             "city": "Layton, UT",
-            "address": "748 W Heritage Park Blvd, Suite 101, Layton, UT 84041",
+            "address": "748 W Heritage Blvd, Layton, UT 84041",
             "phone": "(801) 774-9330",
             "website": "https://www.roostersbrewingco.com/location-layton/",
             "logo_url": "https://utahaletrail.com/media/com_jbusinessdirectory/pictures/companies/79/roosters-brewing_1689720567.jpeg",
@@ -73,9 +73,9 @@
             "notes": "Brewpub with on-site beers and full menu; event hosting available."
         },
         {
-            "name": "Harmons Neighborhood Grocer (Salt Lake City)",
+            "name": "Harmons Neighborhood Grocer",
             "city": "Salt Lake City, UT",
-            "address": "multiple Salt Lake City locations (see site)",
+            "address": "135 E 100 S, Salt Lake City, UT 84111",
             "phone": "(801) 555-4465",
             "website": "https://www.harmonsgrocery.com/locations/",
             "logo_url": "https://www.harmonsgrocery.com/favicon.ico",
@@ -85,9 +85,9 @@
             "notes": "Utah-based grocery chain with several SLC locations."
         },
         {
-            "name": "Red Iguana (Salt Lake City)",
+            "name": "Red Iguana",
             "city": "Salt Lake City, UT",
-            "address": "736 W North Temple St, Salt Lake City, UT 84116",
+            "address": "736 W North Temple, Salt Lake City, UT 84116",
             "phone": "(801) 322-1489",
             "website": "https://www.rediguana.com/",
             "logo_url": "https://www.rediguana.com/wp-content/uploads/RedIguanaLogo@2x-300x300.png",
@@ -97,9 +97,9 @@
             "notes": "Locally famous for mole dishes; multiple SLC locations."
         },
         {
-            "name": "Deseret Book (Salt Lake City)",
+            "name": "Deseret Book",
             "city": "Salt Lake City, UT",
-            "address": "Headquarters & retail locations — see site store-locator",
+            "address": "135 545 W, Bountiful, UT 84010",
             "phone": "(801) 555-4465",
             "website": "https://www.deseretbook.com/",
             "logo_url": "https://www.deseretbook.com/favicon.ico",
@@ -109,9 +109,9 @@
             "notes": "Retailer & publisher with physical stores in the Salt Lake area."
         },
         {
-            "name": "Zions Bank (Salt Lake City)",
+            "name": "Zions Bank",
             "city": "Salt Lake City, UT",
-            "address": "Headquartered in Salt Lake City — see site for branch addresses",
+            "address": "5 N Main St, Bountiful, UT 84010",
             "phone": "(801) 555-4465",
             "website": "https://www.zionsbank.com/",
             "logo_url": "https://cdn2.hubspot.net/hubfs/263750/Zions-Bank-1-1.jpg",
