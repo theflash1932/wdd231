@@ -1,4 +1,4 @@
-const url = 'members.json';
+const url = 'http://theflash1932.github.io/wdd231/chamber/data/members.json';
 const cards = document.querySelector("#cards");
 
 const displayBusinesses = (businesses) => {
@@ -10,14 +10,14 @@ const displayBusinesses = (businesses) => {
         let portrait = document.createElement("img");
 
         fullName.textContent = `${business.name}`;
-        dob.textContent = `Address: ${business.address}`;
-        pob.textContent = `Industry: ${business.industry}`;
+        dob.textContent = `${business.address}`;
+        pob.textContent = `${business.industry}`;
 
         portrait.setAttribute("src", business.logo_url);
         portrait.setAttribute("alt", `Portrait of ${business.name}`);
         portrait.setAttribute("loading", "lazy");
-        portrait.setAttribute('width', '340');
-        portrait.setAttribute('height', '440');
+        portrait.setAttribute('width', '80');
+        portrait.setAttribute('height', '80');
         card.appendChild(fullName);
         card.appendChild(dob);
         card.appendChild(pob);
