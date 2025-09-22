@@ -28,21 +28,21 @@ h1 {
 }
 
 #cards.list {
-    display:block;
+    display: block;
 }
 
-.list section > img {
-    display:none;
+.list section>img {
+    display: none;
 }
 
 .list section {
     background-color: white;
-    border:none;
+    border: none;
 }
 
 .list caption {
-    margin:0;
-    border:0;
+    margin: 0;
+    border: 0;
 }
 
 section {
@@ -194,8 +194,8 @@ footer a:hover {
 }
 
 #view button {
-    padding:10px 20px;
-    margin:5px;
+    padding: 10px 20px;
+    margin: 5px;
 }
 
 @media only screen and (max-width: 75em) {
@@ -263,36 +263,35 @@ footer a:hover {
     }
 
     .navigation {
-        display:none;
-        width:50%;
+        display: none;
+        width: 50%;
         background-color: navy;
     }
 
     .navigation.show {
         display: block;
-        margin-top:10px;
+        margin-top: 10px;
     }
 
     .navigation ul {
-        padding:20px;
+        padding: 20px;
     }
 
     .navigation li {
-        width:100%;
-        padding:auto;
-        margin:0 0 10px 0;
+        width: 100%;
+        margin: 0 0 10px 0;
 
     }
 
     .navigation a {
-        padding:5px 0 20px 10px;
-        margin:0;
-        color:white;
+        padding: 5px 0 20px 10px;
+        margin: 0;
+        color: white;
     }
 
     .navigation a:hover {
         text-decoration: underline;
-        color:white;
+        color: white;
     }
 
 
