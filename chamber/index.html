@@ -5,12 +5,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="WDD 231 directory page for chamber project, Greg Nielson">
+    <meta name="description" content="WDD 231 home page for chamber project, Greg Nielson">
     <meta name="author" content="Greg Nielson">
     <meta property="og:title" content="Greg Nielson Chamber Directory">
     <meta property="og:description"
-        content="This is the directory page for Greg Nielson's chamber project in WDD231 web dev course at BYU Pathways">
-    <meta property="og:image" content="http://theflash1932.github.io/wdd231/chamber/images/fb-local.jpg">
+        content="This is the home page for Greg Nielson's chamber project in WDD231 web dev course at BYU Pathways">
+    <meta property="og:image" content="images/fb-local.jpg">
     <meta property="og:locale" content="en_US">
     <meta property="og:url" content="https://www.facebook.com/gregory.nielson">
     <meta property="og:image:width" content="300">
@@ -22,7 +22,7 @@
     <link href="styles/chamber.css" rel="stylesheet">
     <script src="scripts/directory.js" defer></script>
     <script src="scripts/date-nav.js" defer></script>
-    <title>Greg Nielson - WDD231 - Chamber Directory</title>
+    <title>Greg Nielson - WDD231 - Chamber Home</title>
 </head>
 
 <body>
@@ -32,20 +32,34 @@
         <button id="nav-button" class="hamburger" aria-label="navigation"></button>
         <nav id="nav-bar" class="navigation">
             <ul>
-                <li><a href="./">Home</a></li>
+                <li><a href="./" class="active">Home</a></li>
                 <li><a href="discovery.html">Discover</a></li>
-                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Member Directory</h1>
-        <div id="view">
-            <button id="grid">Grid</button>
-            <button id="list">List</button>
+        <div class="hero">
+            <!--<h1>Timbuktu Chamber of Commerce</h1>-->
+            <img src="images/hero.webp" alt="timbuktu skyline" class="hero">
+            <a href="join.html" class="cta">JOIN NOW</a>
         </div>
-        <div id="cards"></div>
+        <div class="local">
+            <section id="events">
+                <h2>Upcoming Events</h2>
+                <p>TBA</p>
+            </section>
+            <section id="weather">
+                <h2>Current Weather</h2>
+                <div></div>
+            </section>
+            <section id="forecast">
+                <h2>Weather Forecast</h2>
+                <div></div>
+            </section>
+        </div>
+        <div id="cards" class="homeCards"></div>
     </main>
     <footer class="arrange">
         <div class="contact">

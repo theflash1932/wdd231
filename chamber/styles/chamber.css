@@ -31,6 +31,16 @@ h1 {
     display: block;
 }
 
+#cards.homeCards {
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    background-color: green;
+    grid-auto-rows: auto;
+    grid-template-rows: 1fr;
+    width:100%;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
 .list section>img {
     display: none;
 }
@@ -76,6 +86,46 @@ section caption {
 section p {
     font-size: 1.1em;
 }
+
+div.hero {
+    margin:0;
+    padding: 0;
+    background-color: none;
+    border:0;
+    display:block;
+    align-items: normal;
+}
+
+div.hero img {
+    width:100%;
+    max-width: none;
+    box-shadow: none;
+    border:0;
+    margin:0;
+}
+
+div.local {
+    display:flex;
+    align-items: center;
+    margin:0.75rem;
+    padding:0.5rem;
+    gap: 5px;
+}
+
+div.local section {
+    flex: 1;
+    height: 200px;
+}
+
+div.local section:first-of-type {
+
+}
+
+div.local section h2 {
+    margin-bottom:10px;
+}
+
+
 
 header {
     height: 85px;
@@ -136,6 +186,7 @@ nav a:hover {
 
 main {
     clear: both;
+    position: relative;
 }
 
 footer {
@@ -196,6 +247,21 @@ footer a:hover {
 #view button {
     padding: 10px 20px;
     margin: 5px;
+}
+
+.hero {
+    width:100%;
+}
+
+.cta {
+    position:absolute;
+    top:20px;
+    right:20px;
+    padding:30px;
+    background-color: purple;
+    color:white;
+    font-weight: bold;
+    font-size: 1.3em;
 }
 
 @media only screen and (max-width: 75em) {
@@ -293,6 +359,4 @@ footer a:hover {
         text-decoration: underline;
         color: white;
     }
-
-
 }
