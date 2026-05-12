@@ -329,7 +329,7 @@ footer a:hover {
     .navigation {
         display: none;
         width: 50%;
-        background-color: gray;
+        background-color: #888888;
     }
 
     .navigation.show {
