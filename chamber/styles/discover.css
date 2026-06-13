@@ -1,0 +1,63 @@
+#discover-cards {
+    display: grid;
+    gap: 1rem;
+}
+
+.discover-card {
+    display: grid;
+    grid-template-areas:
+        "title"
+        "image"
+        "address"
+        "description"
+        "button";
+    gap: 0.5rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+.discover-card h2 {
+    grid-area: title;
+    margin-bottom: 0;
+}
+
+.discover-card figure {
+    grid-area: image;
+    margin: 0 20px 0 0;
+}
+
+.discover-card img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.discover-card address {
+    grid-area: address;
+}
+
+.discover-card p {
+    grid-area: description;
+}
+
+.discover-card button {
+    max-width: 150px;
+    padding: 7px 20px;
+}
+
+@media screen and (min-width: 641px) {
+    .discover-card {
+        grid-template-areas:
+            "image title"
+            "image address"
+            "image description"
+            "image button";
+        grid-template-columns: 300px 1fr;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    #discover-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}

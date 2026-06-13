@@ -1,0 +1,73 @@
+label {
+    display: block;
+    margin: 0 10px 3px 10px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 1px 10px;
+}
+
+.membership-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.membership-info button {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+dialog {
+    padding: 1.5rem;
+    border: none;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.membership-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+#left,
+#right {
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.membership-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+dialog {
+    padding: 1.5rem;
+    border: none;
+    border-radius: 8px;
+    max-width: 400px;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    .membership-layout {
+        grid-template-columns: 1fr;
+    }
+}
