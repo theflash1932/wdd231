@@ -43,34 +43,29 @@
     <main class="membership-layout">
         <div id="left">
             <form action="thankyou.html" method="get">
-                <label>First Name:</label>
+                <label for="first">First Name:</label>
                 <input type="text" id="first" name="first" title="First Name" required autocomplete="given-name">
                 <br><br>
 
-                <!-- Last name -->
                 <label for="last">Last Name:</label>
                 <input type="text" id="last" name="last" title="Last Name" required autocomplete="family-name">
                 <br><br>
 
-                <!-- Organizational Title -->
                 <label for="title">Organizational Title:</label>
                 <input type="text" id="title" name="title" title="Organizational Title"
                     autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}"
                     placeholder="Minimum 7 characters, letters, hyphens, spaces">
                 <br><br>
 
-                <!-- Email Address -->
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" title="Email" required autocomplete="email"
                     placeholder="example@example.com">
                 <br><br>
 
-                <!-- Mobile Phone Number -->
                 <label for="phone">Mobile Phone:</label>
                 <input type="tel" id="phone" name="phone" title="Mobile" required autocomplete="tel">
                 <br><br>
 
-                <!-- Organization Name -->
                 <label for="organization">Organization Name:</label>
                 <input type="text" id="organization" name="organization" title="Organization Name" required
                     autocomplete="organization">
@@ -102,8 +97,8 @@
             </form>
         </div>
         <div id="right">
-            <label for="membership">Membership Level:</label>
-            <select id="membership" name="membership" required>
+            <label for="aboutmembership">Membership Level:</label>
+            <select id="aboutmembership" name="aboutmembership" required>
                 <option value="">Select Membership</option>
                 <option value="np">NP Membership</option>
                 <option value="bronze">Bronze Membership</option>
@@ -116,15 +111,15 @@
                     NP Membership Details
                 </button>
 
-                <button type="button" onclick="document.getElementById('bronzeModal').showModal()">
+                <button type="button" onclick="document.getElementById('bronze').showModal()">
                     Bronze Membership Details
                 </button>
 
-                <button type="button" onclick="document.getElementById('silverModal').showModal()">
+                <button type="button" onclick="document.getElementById('silver').showModal()">
                     Silver Membership Details
                 </button>
 
-                <button type="button" onclick="document.getElementById('goldModal').showModal()">
+                <button type="button" onclick="document.getElementById('gold').showModal()">
                     Gold Membership Details
                 </button>
             </div>
@@ -139,7 +134,7 @@
             <dialog id="bronzeModal">
                 <h2>Bronze Membership</h2>
                 <p>Basic membership benefits and directory listing.</p>
-                <button onclick="document.getElementById('bronzeModal').close()">
+                <button onclick="document.getElementById('bronze').close()">
                     Close
                 </button>
             </dialog>
@@ -147,7 +142,7 @@
             <dialog id="silverModal">
                 <h2>Silver Membership</h2>
                 <p>Enhanced visibility and additional member benefits.</p>
-                <button onclick="document.getElementById('silverModal').close()">
+                <button onclick="document.getElementById('silver').close()">
                     Close
                 </button>
             </dialog>
@@ -155,7 +150,7 @@
             <dialog id="goldModal">
                 <h2>Gold Membership</h2>
                 <p>Premium exposure and access to all membership benefits.</p>
-                <button onclick="document.getElementById('goldModal').close()">
+                <button onclick="document.getElementById('gold').close()">
                     Close
                 </button>
             </dialog>
