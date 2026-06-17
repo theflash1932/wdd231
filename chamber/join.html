@@ -42,8 +42,7 @@
     <h1>Join the Member Directory</h1>
     <main class="membership-layout">
         <div id="left">
-            <form method="post">
-                <!-- First name -->
+            <form action="thankyou.html" method="get">
                 <label>First Name:</label>
                 <input type="text" id="first" name="first" title="First Name" required autocomplete="given-name">
                 <br><br>
@@ -62,13 +61,13 @@
 
                 <!-- Email Address -->
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" title="Email Address" required autocomplete="email"
+                <input type="email" id="email" name="email" title="Email" required autocomplete="email"
                     placeholder="example@example.com">
                 <br><br>
 
                 <!-- Mobile Phone Number -->
                 <label for="phone">Mobile Phone:</label>
-                <input type="tel" id="phone" name="phone" title="Mobile Phone" required autocomplete="tel">
+                <input type="tel" id="phone" name="phone" title="Mobile" required autocomplete="tel">
                 <br><br>
 
                 <!-- Organization Name -->
@@ -77,7 +76,6 @@
                     autocomplete="organization">
                 <br><br>
 
-                <!-- Membership Level -->
                 <label for="membership">Membership Level:</label>
                 <select id="membership" name="membership" required>
                     <option value="">Select Membership</option>
