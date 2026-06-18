@@ -1,0 +1,107 @@
+[
+    {
+        "score": 9126,
+        "name": "Kevin Mayer",
+        "country": "France",
+        "highest_scoring_event": "Pole Vault",
+        "event_score": 1051
+    },
+    {
+        "score": 9045,
+        "name": "Ashton Eaton",
+        "country": "United States",
+        "highest_scoring_event": "400m",
+        "event_score": 1060
+    },
+    {
+        "score": 9039,
+        "name": "Ashton Eaton",
+        "country": "United States",
+        "highest_scoring_event": "Long Jump",
+        "event_score": 1120
+    },
+    {
+        "score": 9026,
+        "name": "Roman Šebrle",
+        "country": "Czech Republic",
+        "highest_scoring_event": "Long Jump",
+        "event_score": 1086
+    },
+    {
+        "score": 9018,
+        "name": "Damian Warner",
+        "country": "Canada",
+        "highest_scoring_event": "110m Hurdles",
+        "event_score": 1029
+    },
+    {
+        "score": 8994,
+        "name": "Tomáš Dvořák",
+        "country": "Czech Republic",
+        "highest_scoring_event": "110m Hurdles",
+        "event_score": 1011
+    },
+    {
+        "score": 8961,
+        "name": "Dan O'Brien",
+        "country": "United States",
+        "highest_scoring_event": "100m",
+        "event_score": 1023
+    },
+    {
+        "score": 8867,
+        "name": "Garrett Scantling",
+        "country": "United States",
+        "highest_scoring_event": "110m Hurdles",
+        "event_score": 1016
+    },
+    {
+        "score": 8847,
+        "name": "Daley Thompson",
+        "country": "Great Britain",
+        "highest_scoring_event": "Long Jump",
+        "event_score": 1063
+    },
+    {
+        "score": 8832,
+        "name": "Bryan Clay",
+        "country": "United States",
+        "highest_scoring_event": "100m",
+        "event_score": 1013
+    },
+    {
+        "score": 8815,
+        "name": "Erki Nool",
+        "country": "Estonia",
+        "highest_scoring_event": "Pole Vault",
+        "event_score": 1099
+    },
+    {
+        "score": 8811,
+        "name": "Aleksandr Yurkov",
+        "country": "Soviet Union",
+        "highest_scoring_event": "Long Jump",
+        "event_score": 1056
+    },
+    {
+        "score": 8809,
+        "name": "Eduard Hämäläinen",
+        "country": "Belarus",
+        "highest_scoring_event": "110m Hurdles",
+        "event_score": 1021
+    },
+    {
+        "score": 8792,
+        "name": "Leo Neugebauer",
+        "country": "Germany",
+        "highest_scoring_event": "Discus Throw",
+        "event_score": 1024
+    },
+    {
+        "score": 8790,
+        "name": "Trey Hardee",
+        "country": "United States",
+        "highest_scoring_event": "100m",
+        "event_score": 1001
+    }
+]

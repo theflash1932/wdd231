@@ -3,13 +3,19 @@ h1 {
     color: white;
     font-size: 24px;
     padding-left: 20px;
-    position: relative;
-    bottom: 34px;
-    top: -120px;
+    position: absolute;
+    left: 150px;
+    top: -150px;
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width:690px) {
     h1 {
         font-size: 48px;
     }
+}
+
+#topAllTime {
+    text-align: left;
+    margin-bottom:30px;
+    margin-left:50px;
 }

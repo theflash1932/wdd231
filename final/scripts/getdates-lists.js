@@ -65,3 +65,27 @@ americanRecord.forEach(r => {
 
 htmlUSA += "</table>"
 recordUSA.innerHTML = htmlUSA
+
+//top 15 all-time list
+document.addEventListener("DOMContentLoaded", async () => {
+    const targetSection = document.getElementById("topAllTime");
+
+    try {
+        const response = await fetch("data/topdeca.json");
+        const decaData = await response.json();
+        let contentHTML = "<h2>Top 15 All-Time Decathlon Performances</h2>";
+        decaData.forEach((item, index) => {
+            contentHTML += `
+                <div class="athlete-card">
+                    <span class="rank">#${index + 1}</span> 
+                    <strong>${item.name}</strong> (${item.country}) — 
+                    <strong>Score:</strong> ${item.score} points | 
+                    <strong>Top Event:</strong> ${item.highest_scoring_event} (${item.event_score} pts)
+                </div>`;
+        });
+        targetSection.innerHTML = contentHTML;
+
+    } catch (error) {
+        targetSection.innerHTML = "<p class='error'>Data read failed</p>";
+    }
+});
