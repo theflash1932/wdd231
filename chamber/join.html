@@ -39,121 +39,123 @@
             </ul>
         </nav>
     </header>
-    <h1>Join the Member Directory</h1>
-    <main class="membership-layout">
-        <div id="left">
-            <form action="thankyou.html" method="get">
-                <label for="first">First Name:</label>
-                <input type="text" id="first" name="first" title="First Name" required autocomplete="given-name">
-                <br><br>
+    <main>
+        <h1>Join Chamber Directory</h1>
+        <div class="membership-layout">
+            <div id="left">
+                <form action="thankyou.html" method="get">
+                    <label for="first">First Name:</label>
+                    <input type="text" id="first" name="first" title="First Name" required autocomplete="given-name">
+                    <br><br>
 
-                <label for="last">Last Name:</label>
-                <input type="text" id="last" name="last" title="Last Name" required autocomplete="family-name">
-                <br><br>
+                    <label for="last">Last Name:</label>
+                    <input type="text" id="last" name="last" title="Last Name" required autocomplete="family-name">
+                    <br><br>
 
-                <label for="title">Organizational Title:</label>
-                <input type="text" id="title" name="title" title="Organizational Title"
-                    autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}"
-                    placeholder="Minimum 7 characters, letters, hyphens, spaces">
-                <br><br>
+                    <label for="title">Organizational Title:</label>
+                    <input type="text" id="title" name="title" title="Organizational Title"
+                        autocomplete="organization-title" pattern="[A-Za-z\s-]{7,}"
+                        placeholder="Minimum 7 characters, letters, hyphens, spaces">
+                    <br><br>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" title="Email" required autocomplete="email"
-                    placeholder="example@example.com">
-                <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" title="Email" required autocomplete="email"
+                        placeholder="example@example.com">
+                    <br><br>
 
-                <label for="phone">Mobile Phone:</label>
-                <input type="tel" id="phone" name="phone" title="Mobile" required autocomplete="tel">
-                <br><br>
+                    <label for="phone">Mobile Phone:</label>
+                    <input type="tel" id="phone" name="phone" title="Mobile" required autocomplete="tel">
+                    <br><br>
 
-                <label for="organization">Organization Name:</label>
-                <input type="text" id="organization" name="organization" title="Organization Name" required
-                    autocomplete="organization">
-                <br><br>
+                    <label for="organization">Organization Name:</label>
+                    <input type="text" id="organization" name="organization" title="Organization Name" required
+                        autocomplete="organization">
+                    <br><br>
 
-                <label for="membership">Membership Level:</label>
-                <select id="membership" name="membership" required>
+                    <label for="membership">Membership Level:</label>
+                    <select id="membership" name="membership" required>
+                        <option value="">Select Membership</option>
+                        <option value="np">NP Membership (Non-profit, no fee)</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                    <br><br>
+
+                    <!-- Organization Description -->
+                    <label for="description">Organization Description:</label>
+                    <textarea id="description" name="description" title="Organization Description" rows="4" cols="50">
+            </textarea>
+                    <br><br>
+
+                    <!-- Timestamp (hide) -->
+                    <input type="hidden" id="timestamp" name="timestamp" value="">
+                    <br><br>
+
+                    <!-- Form Submission Button -->
+                    <input type="submit" value="Submit Application">
+                    <br><br>
+                </form>
+            </div>
+            <div id="right">
+                <label for="aboutmembership">Membership Level:</label>
+                <select id="aboutmembership" name="aboutmembership" required>
                     <option value="">Select Membership</option>
-                    <option value="np">NP Membership (Non-profit, no fee)</option>
+                    <option value="np">NP Membership</option>
                     <option value="bronze">Bronze Membership</option>
                     <option value="silver">Silver Membership</option>
                     <option value="gold">Gold Membership</option>
                 </select>
-                <br><br>
 
-                <!-- Organization Description -->
-                <label for="description">Organization Description:</label>
-                <textarea id="description" name="description" title="Organization Description" rows="4" cols="50">
-            </textarea>
-                <br><br>
+                <div class="membership-info">
+                    <button type="button" onclick="document.getElementById('npModal').showModal()">
+                        NP Membership Details
+                    </button>
 
-                <!-- Timestamp (hide) -->
-                <input type="hidden" id="timestamp" name="timestamp" value="">
-                <br><br>
+                    <button type="button" onclick="document.getElementById('bronze').showModal()">
+                        Bronze Membership Details
+                    </button>
 
-                <!-- Form Submission Button -->
-                <input type="submit" value="Submit Application">
-                <br><br>
-            </form>
-        </div>
-        <div id="right">
-            <label for="aboutmembership">Membership Level:</label>
-            <select id="aboutmembership" name="aboutmembership" required>
-                <option value="">Select Membership</option>
-                <option value="np">NP Membership</option>
-                <option value="bronze">Bronze Membership</option>
-                <option value="silver">Silver Membership</option>
-                <option value="gold">Gold Membership</option>
-            </select>
+                    <button type="button" onclick="document.getElementById('silver').showModal()">
+                        Silver Membership Details
+                    </button>
 
-            <div class="membership-info">
-                <button type="button" onclick="document.getElementById('npModal').showModal()">
-                    NP Membership Details
-                </button>
+                    <button type="button" onclick="document.getElementById('gold').showModal()">
+                        Gold Membership Details
+                    </button>
+                </div>
+                <dialog id="npModal">
+                    <h2>NP Membership</h2>
+                    <p>For non-profit organizations. No membership fee.</p>
+                    <button onclick="document.getElementById('npModal').close()">
+                        Close
+                    </button>
+                </dialog>
 
-                <button type="button" onclick="document.getElementById('bronze').showModal()">
-                    Bronze Membership Details
-                </button>
+                <dialog id="bronzeModal">
+                    <h2>Bronze Membership</h2>
+                    <p>Basic membership benefits and directory listing.</p>
+                    <button onclick="document.getElementById('bronze').close()">
+                        Close
+                    </button>
+                </dialog>
 
-                <button type="button" onclick="document.getElementById('silver').showModal()">
-                    Silver Membership Details
-                </button>
+                <dialog id="silverModal">
+                    <h2>Silver Membership</h2>
+                    <p>Enhanced visibility and additional member benefits.</p>
+                    <button onclick="document.getElementById('silver').close()">
+                        Close
+                    </button>
+                </dialog>
 
-                <button type="button" onclick="document.getElementById('gold').showModal()">
-                    Gold Membership Details
-                </button>
+                <dialog id="goldModal">
+                    <h2>Gold Membership</h2>
+                    <p>Premium exposure and access to all membership benefits.</p>
+                    <button onclick="document.getElementById('gold').close()">
+                        Close
+                    </button>
+                </dialog>
             </div>
-            <dialog id="npModal">
-                <h2>NP Membership</h2>
-                <p>For non-profit organizations. No membership fee.</p>
-                <button onclick="document.getElementById('npModal').close()">
-                    Close
-                </button>
-            </dialog>
-
-            <dialog id="bronzeModal">
-                <h2>Bronze Membership</h2>
-                <p>Basic membership benefits and directory listing.</p>
-                <button onclick="document.getElementById('bronze').close()">
-                    Close
-                </button>
-            </dialog>
-
-            <dialog id="silverModal">
-                <h2>Silver Membership</h2>
-                <p>Enhanced visibility and additional member benefits.</p>
-                <button onclick="document.getElementById('silver').close()">
-                    Close
-                </button>
-            </dialog>
-
-            <dialog id="goldModal">
-                <h2>Gold Membership</h2>
-                <p>Premium exposure and access to all membership benefits.</p>
-                <button onclick="document.getElementById('gold').close()">
-                    Close
-                </button>
-            </dialog>
         </div>
     </main>
     <footer class="arrange">

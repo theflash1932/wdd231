@@ -1,0 +1,419 @@
+* {
+    font-family: Ubuntu;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #EA4F36;
+    position: relative;
+}
+
+header img {
+    position: relative;
+    top: 3px;
+    left: 2px;
+}
+
+#title-header {
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+h1 {
+    display: inline;
+    color: white;
+    font-size: 24px;
+    padding-left: 20px;
+    position: relative;
+    bottom: 34px;
+}
+
+h2 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.grid {
+    grid-template-columns: 2fr 1fr;
+}
+
+footer {
+    clear: both;
+    padding: 20px 0;
+    margin-top: 10px;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+#decathlon input[type="text"] {
+    padding: 5px;
+    margin: 2px 0;
+    width: 70px;
+}
+
+.decaTotal {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.decaButton {
+    text-align: right;
+}
+
+.decaResult {
+    font-size: 32px;
+    font-weight: bold;
+    padding-right: 40px;
+}
+
+.decaResult input {
+    border: none;
+}
+
+/* Mobile View
+***************/
+#menu {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0 0.75rem;
+    padding-top: 0;
+    background-color: #eee;
+    color: #000;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+nav {
+    display: flex;
+    background-color: #d2dafc;
+    text-align: right;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: clamp(1.1rem, 2vmin, 1.5rem);
+
+}
+
+.navigation a.active {
+    text-decoration: underline;
+}
+
+.navigation a:hover,
+.navigation a:active {
+    color: white;
+    background-color: black;
+}
+
+.show li {
+    display: block;
+}
+
+#menu.show::before {
+    content: "X";
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.day {
+    border: none;
+    padding: 20px;
+    text-align: left;
+    width: auto;
+    padding-left: 50px;
+}
+
+.day td:first-of-type {
+    width: 120px;
+}
+
+.day td:nth-of-type(2) {
+    padding-left: 30px;
+}
+
+.day td:nth-of-type(3) {
+    padding: 0 10px;
+}
+
+.day td:nth-of-type(4) span {
+    width: 100%;
+    float: right;
+    padding-left: 30px;
+    text-align: right;
+    font-size: 20px;
+}
+
+button {
+    font-size: 24px;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: #ACD65A;
+}
+
+td.decaButton {
+    text-align: right;
+}
+
+.totals {
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+    max-width: 900px;
+}
+
+.total {
+    border: none;
+    padding: 20px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.dayTotal,
+.dayPoints {
+    font-weight: bold;
+}
+
+.dayPoints {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/*.aboutPage { margin-bottom:30px; text-align:left; position:relative; display:grid; grid-template-columns:repeat(2,1fr); }*/
+.aboutPage {
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+    width: 900px;
+}
+
+/*.aboutPara { float:left; position:relative; }*/
+.aboutPara {
+    border: none;
+    padding: 20px;
+    text-align: left;
+    width: auto;
+    padding-left: 50px;
+}
+
+.aboutPara h3:nth-of-type(2) {
+    margin-top: 30px;
+}
+
+.aboutPara img {
+    width: auto;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    padding: 1px;
+}
+
+.aboutImg {
+    float: right;
+    position: relative;
+}
+
+#record {
+    margin: 0px auto;
+}
+
+#record td,
+th {
+    text-align: left;
+    padding: 2px 50px 2px 0;
+}
+
+#record td:nth-of-type(3) {
+    text-align: right;
+}
+
+#record table {
+    margin-bottom: 30px;
+}
+
+#recordUSA {
+    margin: 0px auto;
+}
+
+#recordUSA td,
+th {
+    text-align: left;
+    padding: 2px 50px 2px 0;
+}
+
+#recordUSA td:nth-of-type(3) {
+    text-align: right;
+}
+
+#recordUSA table {
+    margin-bottom: 30px;
+}
+
+.recordMain {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.recordMain:first-of-type {
+    margin-top: 30px;
+}
+
+@media only screen and (min-width: 550px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    .navigation {
+        display: flex;
+        text-align: left;
+    }
+
+    .navigation li {
+        display: block;
+        /* change state in small view */
+        flex: 1 1 100%;
+    }
+
+    .navigation a {
+        text-align: center;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .days {
+        margin: 30px auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-top: 30px;
+        width: 900px;
+    }
+
+    .day {
+        border: 1px solid black;
+        padding: 20px;
+        text-align: left;
+        width: auto;
+        padding-left: 50px;
+    }
+
+    .totals {
+        margin: 30px auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        margin-top: 30px;
+        width: 900px;
+    }
+
+    .total {
+        border: 1px solid black;
+        padding: 20px;
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    td,
+    input {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 24px;
+    }
+
+    button {
+        padding: 5px 30px;
+        background-color: #ACD65A;
+    }
+
+    .day td:nth-of-type(2) {
+        padding-left: 30px;
+    }
+
+    .day td:nth-of-type(3) {
+        padding: 0 10px;
+    }
+
+    .day td:nth-of-type(4) span {
+        width: 100%;
+        float: right;
+        padding-left: 30px;
+        text-align: right;
+        font-size: 20px;
+    }
+
+    .dayPoints {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: right;
+    }
+
+    .total table {
+        width: 100%;
+    }
+
+    .dayTotal {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .decaTotal {
+        font-size: 32px;
+        font-weight: bold;
+        text-align: left;
+        width: 35%;
+    }
+}

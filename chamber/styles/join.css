@@ -3,16 +3,24 @@ label {
     margin: 0 10px 3px 10px;
 }
 
-input, select {
+input,
+select {
     padding: 10px;
     margin: 1px 10px;
 }
 
+/*
 .membership-info {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-top: 1rem;
+}*/
+
+.membership-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .membership-info button {
@@ -46,23 +54,6 @@ dialog::backdrop {
     border: 1px solid #ddd;
     border-radius: 8px;
     background-color: #fff;
-}
-
-.membership-info {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-dialog {
-    padding: 1.5rem;
-    border: none;
-    border-radius: 8px;
-    max-width: 400px;
-}
-
-dialog::backdrop {
-    background: rgba(0, 0, 0, 0.5);
 }
 
 /* Responsive for mobile */
